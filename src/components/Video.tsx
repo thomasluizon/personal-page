@@ -11,6 +11,7 @@ export default function Video({ children }: IProps) {
 				autoPlay
 				loop
 				muted
+				poster=""
 				className="absolute w-full h-full object-cover -z-10"
 			>
 				<source src={videoSrc} type="video/mp4" />
