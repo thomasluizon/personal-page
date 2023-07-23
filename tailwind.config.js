@@ -24,7 +24,7 @@ module.exports = {
 				background: 'rgba(31, 41, 55, 0.6)',
 			},
 			backgroundImage: {
-				videoImage: "url('/background.png')",
+				videoImage: "url('/video.gif')",
 			},
 		},
 	},

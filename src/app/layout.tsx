@@ -1,4 +1,3 @@
-import Video from '@/components/Video'
 import type { Metadata } from 'next'
 import './globals.css'
 
@@ -14,8 +13,8 @@ type IProps = {
 export default function RootLayout({ children }: IProps) {
 	return (
 		<html lang="en">
-			<body className="bg-videoImage bg-center bg-no-repeat bg-cover h-screen text-white text-center">
-				<Video>{children}</Video>
+			<body className="bg-videoImage bg-cover bg-center bg-repeat h-screen text-white text-center">
+				{children}
 			</body>
 		</html>
 	)
