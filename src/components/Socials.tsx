@@ -42,6 +42,7 @@ export default function Socials() {
 		<div className="flex gap-2">
 			{socials.map(social => (
 				<Link
+					key={social.alt}
 					href={social.href}
 					target="_blank"
 					className="mini:scale-75 mini:hover:scale-90 hover:scale-110 transition-transform duration-600"
