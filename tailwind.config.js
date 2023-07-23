@@ -23,6 +23,9 @@ module.exports = {
 			colors: {
 				background: 'rgba(31, 41, 55, 0.6)',
 			},
+			backgroundImage: {
+				videoImage: "url('/background.png')",
+			},
 		},
 	},
 	plugins: [],

@@ -14,7 +14,7 @@ type IProps = {
 export default function RootLayout({ children }: IProps) {
 	return (
 		<html lang="en">
-			<body className="bg-black h-screen text-white text-center">
+			<body className="bg-videoImage bg-center bg-no-repeat bg-cover h-screen text-white text-center">
 				<Video>{children}</Video>
 			</body>
 		</html>
