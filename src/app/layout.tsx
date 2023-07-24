@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import bgSource from '../../public/video.gif'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -10,8 +11,6 @@ export const metadata: Metadata = {
 type IProps = {
 	children: React.ReactNode
 }
-
-const bgSource = '/video.gif'
 
 export default function RootLayout({ children }: IProps) {
 	return (
