@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -10,11 +11,19 @@ type IProps = {
 	children: React.ReactNode
 }
 
+const bgSource = '/video.gif'
+
 export default function RootLayout({ children }: IProps) {
 	return (
 		<html lang="en">
-			<body className="overflow-hidden bg-videoImage bg-cover bg-center bg-repeat h-screen text-white text-center">
-				{children}
+			<body className="overflow-hidden flex items-center justify-center relative h-screen text-white text-center">
+				<Image
+					alt="Video background"
+					src={bgSource}
+					fill
+					className="object-cover absolute -z-10"
+				/>
+				<div>{children}</div>
 			</body>
 		</html>
 	)
