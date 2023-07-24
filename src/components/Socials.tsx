@@ -13,14 +13,14 @@ const socials: Social[] = [
 		href: 'https://github.com/thomasluizon',
 	},
 	{
-		src: '/linkedin.png',
-		alt: 'LinkedIn',
-		href: 'https://www.linkedin.com/in/thomas-luizon/',
-	},
-	{
 		src: '/instagram.png',
 		alt: 'Instagram',
 		href: 'https://www.instagram.com/thomasluizon/',
+	},
+	{
+		src: '/linkedin.png',
+		alt: 'LinkedIn',
+		href: 'https://www.linkedin.com/in/thomas-luizon/',
 	},
 	{
 		src: '/twitter.png',
