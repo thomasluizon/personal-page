@@ -5,7 +5,7 @@ const socials: Social[] = [
 	{
 		src: '/black-white-icon.png',
 		alt: 'Portfolio',
-		href: 'https://thomas-portfolio.vercel.app/',
+		href: 'https://thomas-luizon-portfolio.vercel.app',
 	},
 	{
 		src: '/github.png',
@@ -15,12 +15,12 @@ const socials: Social[] = [
 	{
 		src: '/instagram.png',
 		alt: 'Instagram',
-		href: 'https://www.instagram.com/thomasluizon/',
+		href: 'https://www.instagram.com/thomasluizon',
 	},
 	{
 		src: '/linkedin.png',
 		alt: 'LinkedIn',
-		href: 'https://www.linkedin.com/in/thomas-luizon/',
+		href: 'https://www.linkedin.com/in/thomas-luizon',
 	},
 	{
 		src: '/twitter.png',
